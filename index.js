@@ -33,7 +33,7 @@ $$('.panel-left').on('close', function() {
 $$('#collect-submit').on('click', function(e) {
 	if ($$("#url").val() == "") {
 		myApp.addNotification({
-			message: '请填写跳转链接。',
+			message: 'http://finance.qq.com/original/MissMoney/mm0043.html',
 			hold: 1500
 		});
 		return
